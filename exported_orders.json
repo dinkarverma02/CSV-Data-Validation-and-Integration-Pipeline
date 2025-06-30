@@ -1,0 +1,98 @@
+[
+  {
+    "order_id": 5001,
+    "customer_id": 101,
+    "date": "2025-06-01",
+    "total_price": 26.0,
+    "items": [
+      {
+        "item": "Apples",
+        "quantity": 10,
+        "unit_price": 2.2,
+        "is_valid": false,
+        "error_message": "Duplicate order_id and item"
+      },
+      {
+        "item": "Bananas",
+        "quantity": 5,
+        "unit_price": 0.8,
+        "is_valid": true,
+        "error_message": null
+      }
+    ]
+  },
+  {
+    "order_id": 5002,
+    "customer_id": 102,
+    "date": "2025-06-02",
+    "total_price": 0,
+    "items": [
+      {
+        "item": "Oranges",
+        "quantity": null,
+        "unit_price": 1.0,
+        "is_valid": false,
+        "error_message": "Invalid or missing quantity"
+      }
+    ]
+  },
+  {
+    "order_id": 5003,
+    "customer_id": 103,
+    "date": "2025-06-03",
+    "total_price": 2.0,
+    "items": [
+      {
+        "item": "Bread",
+        "quantity": 1,
+        "unit_price": 2.0,
+        "is_valid": true,
+        "error_message": null
+      },
+      {
+        "item": "Milk",
+        "quantity": null,
+        "unit_price": null,
+        "is_valid": false,
+        "error_message": "Invalid or missing quantity; Invalid or missing unit_price; Invalid or missing date"
+      }
+    ]
+  },
+  {
+    "order_id": 5004,
+    "customer_id": 104,
+    "date": "2025-06-04",
+    "total_price": 2.0,
+    "items": [
+      {
+        "item": "Butter",
+        "quantity": 1,
+        "unit_price": 2.0,
+        "is_valid": true,
+        "error_message": null
+      }
+    ]
+  },
+  {
+    "order_id": 5005,
+    "customer_id": 106,
+    "date": null,
+    "total_price": 11.2,
+    "items": [
+      {
+        "item": "Cream",
+        "quantity": 1,
+        "unit_price": 2.0,
+        "is_valid": false,
+        "error_message": "Invalid or missing date"
+      },
+      {
+        "item": "Tart",
+        "quantity": 2,
+        "unit_price": 4.6,
+        "is_valid": false,
+        "error_message": "Invalid or missing date"
+      }
+    ]
+  }
+]

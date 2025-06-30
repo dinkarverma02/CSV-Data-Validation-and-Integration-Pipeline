@@ -1,0 +1,10 @@
+Order ID, Customer ID, Item, Quantity, Unit Price, Date, Notes, Salesperson
+5001, 101, Apples, 10, 1.20, 2025-06-01, Priority order, John
+5001, 101, Apples, 10, 2.20, 2025-06-01, Priority order, John
+5001, 101, Bananas, 5, 0.80, 01/06/2025, , John
+5002, 102, Oranges, , 1.00, 2025/06/02, Late payment, Mary
+5003, 103, Milk, , , , ,
+5003, 103, Bread, 1, 2.00, 2025-06-03, , 
+5004, 104, Butter, 1, 2.00, June 4 2025, Urgent, Mary
+5005, 106, Tart, 2, 4.60, , Nice meal, Dinkar
+5005, 106, Cream, 1, 2, , Nice
